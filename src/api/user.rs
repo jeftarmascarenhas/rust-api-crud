@@ -12,5 +12,5 @@ pub fn index() -> (Status, (ContentType, Json<Vec<User>>))  {
 
 #[get("/<name>/<age>")]
 pub fn hello(name: String, age: u8) -> String {
-    format!("Hello, {} Year old named {}!", age, name)
+    format!("Hello, {} years old named {}!", age, name)
 }
