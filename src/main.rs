@@ -2,11 +2,11 @@
 
 #[macro_use] extern crate rocket;
 
-mod routes;
-mod services;
-pub mod entities;
+mod api;
+mod repository;
+pub mod models;
 
-use routes::user::*;
+use api::user::*;
 
 
 #[launch]

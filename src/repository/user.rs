@@ -1,5 +1,5 @@
 
-use crate::entities::user::User;
+use crate::models::user::User;
 
 pub fn get_users() -> Vec<User> {
   let users = vec![User {

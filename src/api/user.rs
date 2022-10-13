@@ -1,7 +1,7 @@
 use rocket::{serde::json::Json};
 use rocket::http::{Status, ContentType};
 
-use crate::{entities::user::User, services::user::get_users};
+use crate::{models::user::User, repository::user::get_users};
 
 
 
