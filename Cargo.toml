@@ -1,5 +1,5 @@
 [package]
-name = "study_1"
+name = "rust_api_crud"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,5 +8,4 @@ edition = "2021"
 [dependencies]
 rocket = {version = "0.5.0-rc.2" , features = ["json"]}
 rocket_codegen = "0.4.11"
-cargo-watch = "8.1.2"
 serde = "1.0.145"
