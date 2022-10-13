@@ -4,4 +4,5 @@ use rocket::serde::{Serialize, Deserialize};
 #[serde(crate = "rocket::serde")]
 pub struct User {
   pub name: String,
+  pub email: String,
 }
