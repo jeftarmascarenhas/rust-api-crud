@@ -4,7 +4,15 @@ This my study about Rust Language. In this project I'm writing simple api.
 
 ![Rust](./rust-icon.png)
 
-This project using Carbo module management.
+This project using [Carbo](https://doc.rust-lang.org/cargo/) module management and [Rocket](https://rocket.rs/) as framework to build the api.
+
+## Project Structure
+
+`api` is for modularizing API handlers.
+
+`models` is for modularizing data logics.
+
+`repository` is for modularizing database logics.
 
 ## Warning
 
